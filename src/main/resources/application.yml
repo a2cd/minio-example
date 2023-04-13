@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: minio-example
+  profiles:
+    active: @spring.profiles.active@
+

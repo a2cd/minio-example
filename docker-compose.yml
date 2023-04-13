@@ -1,0 +1,15 @@
+version: '3'
+services:
+  minio-example:
+    hostname: minio-example
+    image: minio-example:0.1.1
+    container_name: minio-example
+    privileged: true
+    environment:
+      - TZ=Asia/Shanghai
+    networks:
+      - dev
+
+networks:
+  dev:
+    external: true

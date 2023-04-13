@@ -1,0 +1,14 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+      max-request-size: 1024MB
+
+minio:
+  endpoint: http://localhost:39000
+  bucket: boot-minio
+  # endpointProxy: http://localhost:39000
+  accessKey: YWfIBo4wkFOZzNTi
+  secretKey: 6U2IT3Hsux8V1qPhYFdbUPQe2Ao8GYrG
+
